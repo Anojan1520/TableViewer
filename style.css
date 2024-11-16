@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    overflow-x: hidden;
+}
+.section{
+    max-width: 1400px;
+    margin: auto;
+}
+
+table{
+    width: 60%;
+    border-spacing: 0;
+    text-align: center;
+    
+}
+    
+thead tr{
+    font-size: 1.7rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+    text-align: center;
+}
+tbody tr{
+    font-size: 1.3rem;
+    background-color: rgb(228, 226, 226);
+    color: rgb(12, 14, 16);
+}
+td{
+    border-bottom: solid 1px black;
+}
+.table-centre{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Add-Button{
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: rgb(255, 200, 0);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+.div-button{
+    padding-top: 2rem;
+    margin-left: 69.2rem;
+    margin-bottom: 1rem;
+}
+.tr{
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+}
+.thead .tr{
+    text-align: center;
+}
+.tbody{
+    background-color: rgb(212, 208, 208);
+}
+.tr{
+    border-bottom: solid 1px;
+    align-items: center;
+
+}
+.thead{
+    background-color: black;
+    color: white;
+}
+.td{
+  text-align: center;
+}
+.table{
+    width: 60%;
+    font-size: 1.1rem;
+}
+.grid-table{
+    display: flex;
+    justify-content: center;
+}
+.model-window{
+    width: 17rem;
+}
+label{
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+}
+.form-group{
+    width: max-content;
+}
+.model-Add{
+    background-color:#c5c0c0;
+    padding: 1rem;
+    width: fit-content;
+    height: fit-content;
+}
+.submit-btn{
+    margin-top: 0.5rem;
+    font-size: 1.4rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color:#69d7e6;
+    color: white;
+    padding: 0.2rem 0.6rem;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+.model-Add input{
+    width: max-content;
+    font-size: 1.5rem;
+    border-radius: 0.2rem;
+    border: none;
+    border-bottom: solid 1px white;
+    color: #000000;
+
+}
+.model-Add input::placeholder{
+    border: none;
+    font-size: 1.2rem;
+}
+.model-Add h1{
+     font-weight: bold;
+     color:#040c53;
+}
+.model-window{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    
+}
+.model-center{
+    position: absolute;
+    z-index: 10;
+    display: none;
+    background-color: rgb(0, 0, 0,0.7);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    
+}
+.Cancel{
+    background-color: red;
+}
+.submit-btn2{
+    display: none;
+}
+.btn{
+    display: flex;
+}
